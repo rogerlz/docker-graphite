@@ -4,7 +4,7 @@ Simple Dockerfile to install graphite + carbon
 
 
 ```sh 
-$ docker build . 
+$ docker build -t graphite .
 $ docker run -d graphite
 ``` 
 
