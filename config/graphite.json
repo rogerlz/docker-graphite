@@ -1,0 +1,11 @@
+{
+	"service": {
+    	"name": "graphite",
+    	"tags": ["clientX"],
+    	"port": 8000,
+    	"check": {
+        	"script": "exit 0",
+        	"interval": "10s"
+		}
+	}
+}
